@@ -5,6 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title></title>
     <link href="css/style.css" rel="stylesheet" />
+    <style>
+      .about-page-content {
+        border: 2px solid black;
+        width: 90%;
+        padding: 3rem 2rem;
+      }
+
+      @media (min-width: 768px) {
+        .about-page-content {
+          width: 80%;
+        }
+      }
+
+      @media (min-width: 1024px) {
+        .about-page-content {
+          width: 60%;
+        }
+      }
+
+      @media (min-width: 1280px) {
+        .about-page-content {
+          width: 55%;
+        }
+      }
+
+      .line-bracket {
+        width: 100%;
+        height: 0.1rem;
+        background-color: black;
+      }
+
+      .list-task {
+        margin: 0.5rem 1rem 1rem 1rem;
+      }
+
+      .list-task li {
+        margin-top: 0.3rem;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -13,10 +52,62 @@
         <a href="index.html"><span class="main-logo">WriteDwn</span></a>
         <a href="author.html">Author</a>
       </nav>
-      <div></div>
     </header>
     <main class="main-page">
-      <div>hello world</div>
+      <div class="about-page-content">
+        <div>
+          <h2>📝 WriteDwm - Write-down your schedule</h2>
+          <br />
+          <p>
+            WriteDwn is a simple todo-list=website 🗒️ that help you track &
+            manage your task, no internet 🌐, no login 🔐, -everything is stored
+            on your computer
+          </p>
+          <br />
+          <div class="line-bracket"></div>
+          <br />
+          <h3>💡The Ideas / inspiration:</h3>
+          <br />
+          <p>
+            We used paper to write our daily schedule on paper 📃, and it was
+            spent a lot of time ⏱️, also wasted a lot of paper🌲. So, i decide
+            to implement my skills onto this project, which is turn from
+            notebook -> into a websites
+          </p>
+          <br />
+          <div class="line-bracket"></div>
+          <br />
+          <h3>🤔 What the reason i built this?:</h3>
+          <ul class="list-task">
+            <li>✍️ Implementing Html, Css & js fundamental i've learn</li>
+            <li>🏋️ Practicing & implement the knowledge that i've got</li>
+          </ul>
+          <div class="line-bracket"></div>
+          <br />
+          <h3>🛠️ Tools that i used to built:</h3>
+          <ul class="list-task">
+            <li>
+              🗃️ Html, Css, Also javascript(*for basic DOM and algorithms)
+            </li>
+            <li>🗄️ Local Storage(*which is ran in your laptop locally)</li>
+            <li>📝 Editor: Neovim(NvChad & Minimal LSP Configuration)</li>
+            <li>✒️ UI&UX design: Figma</li>
+            <li>🎮 version control: Git</li>
+          </ul>
+          <div class="line-bracket"></div>
+          <br />
+          <h2>🤔 What do i expect with this?</h2>
+          <br />
+          <p>
+            Understanding the things that i've learned with some mini project, i
+            hope that i can improve my skills through this project also
+            involving my knowledge as a beginner -> expert. <br /><br />/
+            Anything else?, i dont know about that, but i want to improve my
+            knowledge to Understanding the things that i've learned before<br /><br />
+            ps: 🤫 Check my other repo, i've some of project :)
+          </p>
+        </div>
+      </div>
     </main>
     <footer><p>Copyright@Gha211th Mini Project</p></footer>
   </body>

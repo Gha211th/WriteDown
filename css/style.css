@@ -30,6 +30,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: white;
+  border: 2px solid black;
 }
 
 .nav-list a {
@@ -232,7 +233,7 @@ header div {
 }
 
 footer {
-  /*  position: fixed; */
+  position: fixed;
   padding: 1rem;
   bottom: 0;
   left: 0;
