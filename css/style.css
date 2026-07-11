@@ -14,11 +14,52 @@ body {
   font-family: monospace;
 }
 
+/* NAVBAR / HEADER */
+header {
+  width: 50%;
+  padding: 0.7rem 0rem;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+
+.nav-list {
+  width: 100%;
+  display: flex;
+  padding: 1rem 2rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.nav-list a {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  transition: 0.3s ease;
+}
+
+.nav-list a:hover {
+  text-decoration: underline;
+}
+
+.main-logo {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+header div {
+  height: 0.2rem;
+  background-color: black;
+}
+
 /* MAIN PAGE */
 .main-page {
   width: 100%;
   display: flex;
-  margin: 3rem 1rem;
+  margin: 6.5rem 1rem;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -160,7 +201,7 @@ body {
 }
 
 footer {
-  position: fixed;
+  /*  position: fixed; */
   padding: 1rem;
   bottom: 0;
   left: 0;
